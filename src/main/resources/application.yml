@@ -1,0 +1,20 @@
+webServices:
+  getWeatherByCityName:
+    nameSpace: http://WebXml.com.cn/
+    action: http://WebXml.com.cn/getWeatherbyCityName
+    endPointReference: http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl
+    methodName: getWeatherbyCityName
+    methodValueName: theCityName
+  translate:
+    nameSpace: http://WebXml.com.cn/
+    action: http://WebXml.com.cn/Translator
+    endPointReference: http://fy.webxml.com.cn/webservices/EnglishChinese.asmx?wsdl
+    methodName: Translator
+    methodValueName: wordKey
+
+
+
+
+logging:
+  path: /Users/pangzi/IdeaProjects/maventestblank/logging
+  file: mylog
